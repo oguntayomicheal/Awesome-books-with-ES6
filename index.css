@@ -1,0 +1,142 @@
+body {
+    padding: 0;
+    border: 2px solid black;
+  }
+  
+  #list {
+    border: 1px solid black;
+  }
+  
+  nav {
+    border: 2px solid black;
+  }
+  
+  .awesome {
+    margin: auto;
+    width: 50%;
+    padding: 12px;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    height: auto;
+    background-color: rgb(194, 189, 189);
+  }
+  
+  h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .links {
+    display: flex;
+    margin-left: 18px;
+  }
+  
+  .ul-links {
+    list-style: none;
+    display: flex;
+    margin-right: 6px;
+    font-weight: bold;
+  }
+  
+  li {
+    margin-right: 12px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(59, 56, 56);
+  }
+  
+  .ul-links li a:hover {
+    color: #2155d8;
+  }
+  
+  #form {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+  }
+  
+  .date {
+    padding: 6px 16px;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  input {
+    width: 100%;
+  }
+  
+  #addButton {
+    float: right;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  .book:nth-child(odd) {
+    background-color: rgb(245, 240, 240);
+  }
+  
+  .book:nth-child(even) {
+    background-color: white;
+  }
+  
+  hr {
+    width: 7rem;
+    margin-top: 18px;
+    height: 3px;
+    background-color: rgb(59, 57, 57);
+  }
+  
+  button {
+    box-shadow: 2px 2px black;
+    padding: 5px 15px;
+  }
+  
+  .titleAuthor {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  #contact-section {
+    width: 40%;
+    margin: auto;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .copyrights {
+    border: 1px solid black;
+    padding: 3px 8px;
+    margin-top: 33px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #form {
+      width: 80%;
+    }
+  
+    #contact-section {
+      width: 80%;
+    }
+  }
+  
+  .no_book {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+  }
